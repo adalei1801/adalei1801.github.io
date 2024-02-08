@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto&display=swap');
+
+body {
+    background-color: #BBE2EC;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1, h2 {
+    font-family: 'Roboto';
+    color: #001511;
+
+}
+
+a {
+    color:#0B0B5B;
+}
+
+a:hover {
+    color:#0D9276; 
+}
