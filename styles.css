@@ -9,14 +9,47 @@ body {
 
 h1, h2 {
     font-family: 'Roboto';
-    color: #001511;
+    color: #000000;
 
 }
 
 a {
     color:#0B0B5B;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-family: 'Roboto';
 }
 
 a:hover {
-    color:#0D9276; 
+    color:#0b0b56;
+    background-color: #58a1fb;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+    background-color: #e3eced;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    border-radius: 8px;
+    border: 3px solid #90b9e4;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.active {
+    background-color: #58a1fb;
+    color: #000000;
+    border-radius: 8px;
 }
