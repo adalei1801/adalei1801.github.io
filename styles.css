@@ -4,16 +4,35 @@
 
 body {
     background-color: #BBE2EC;
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('images/carrot_rain.png');
 }
 
 h1, h2 {
     font-family: 'Roboto';
     color: #000000;
+    background-color: #8DD9EC;
+    width: 32%;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #34A9C6;
 
 }
 
+#companion {
+    width: 80%;
+    b
+}
+
+p {
+    background-color: #8DD9EC;
+}
+
 a {
+    text-decoration: none;
+}
+
+nav a {
     color:#0B0B5B;
     display: block;
     padding: 8px;
@@ -21,7 +40,7 @@ a {
     font-family: 'Roboto';
 }
 
-a:hover {
+nav a:hover {
     color:#0b0b56;
     background-color: #58a1fb;
     border-radius: 8px;
