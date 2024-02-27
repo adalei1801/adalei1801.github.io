@@ -8,24 +8,52 @@ body {
     background-image: url('images/carrot_rain.png');
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Roboto';
     color: #000000;
     background-color: #8DD9EC;
-    width: 32%;
+    width: 30%;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #34A9C6;
+    padding: 5px;
+
+}
+
+#reach {
+    width: 50%
+}
+
+#companion {
+    width: 80%;
+}
+
+#dragon {
+    width: 95%
+}
+
+#git {
+    background-color: #8DD9EC;
     border-radius: 7px;
     border-style: solid;
     border-color: #34A9C6;
 
 }
 
-#companion {
-    width: 80%;
-    b
-}
-
 p {
     background-color: #8DD9EC;
+    border-style: solid;
+    border-color: #34A9C6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+img {
+    background-color: #8DD9EC;
+    padding: 5px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #34A9C6;
 }
 
 a {
