@@ -24,23 +24,61 @@ h1, h2, h3 {
     width: 50%
 }
 
+#random {
+    width: 70%;
+}
+
 #companion {
     width: 80%;
 }
 
+#companion:hover {
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+#companion > a {
+    color: black;
+    display: block;
+}
+
 #dragon {
-    width: 95%
+    width: 100%;
+    position: static;
 }
 
-#git {
-    background-color: #8DD9EC;
-    border-radius: 7px;
-    border-style: solid;
-    border-color: #34A9C6;
+#git:hover {
+    color:#fafafa;
+    background-color: #333;
+    border-color: #f5f5f5;
+}
+
+#link:hover {
+    color:#fdfaf5;
+    background-color: #0a66c2;
+    border-color: #fdfaf5 ;
+
 
 }
 
-p {
+section > img {
+    float: left
+}
+
+section > p {
+    position: static;
+    width: 60%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section > h2 {
+    position: static;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p, #git, #link, #companion {
     background-color: #8DD9EC;
     border-style: solid;
     border-color: #34A9C6;
@@ -54,6 +92,11 @@ img {
     border-radius: 7px;
     border-style: solid;
     border-color: #34A9C6;
+}
+
+nav {
+    position: sticky;
+    top: 0;
 }
 
 a {
