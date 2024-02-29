@@ -67,15 +67,14 @@ section > img {
 
 section > p {
     position: static;
-    width: 60%;
+    width: 80%;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    right: 60px;
 }
 
 section > h2 {
     position: static;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 p, #git, #link, #companion {
