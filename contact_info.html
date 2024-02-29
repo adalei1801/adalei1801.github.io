@@ -33,6 +33,40 @@
     <h3>Social Media</h3>
     <a id="git" href="https://github.com/adalei1801">Github</a>
     <a id="link" href="www.linkedin.com/in/ashley-king-9463b9288">LinkedIn</a>
+    <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post">
+        <div>
+        <label for="eddress">Email Address:</label>
+        <input type="text" id="eddress" name="Email Address">
+        </div>
+        <div>
+            <label for="reason">I am contacting you because...</label>
+        </div>
+        <div>
+            <input type="radio" id="workquery" name="Contact Reason" value="Work inquiry">
+            <label for="workquery">I am curious about your work</label>
+        </div>
+        <div>
+            <input type="radio" id="job" name="Contact Reason" value="job">
+            <label for="job">I would like to talk to about a job opportunity</label>
+        </div>
+        <div>
+            <input type="radio" id="other" name="Contact Reason" value="other">
+            <label for="other">Other</label>
+        </div>
+        <div>
+            <label for="othertext" ></label>
+            <input type="text" id="othertext" name="Contact Reason under 'Other'">
+        </div>
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="Message" rows="4" cols="20"></textarea>
+        </div>
+        <div> 
+            <input type="submit" value="Send">
+        </div>
+        <input name="send-to" value="aking@brooklynsteamcenter.org" hidden>
+    </form>
 
 </body>
 </html>

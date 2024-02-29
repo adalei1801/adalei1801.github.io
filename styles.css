@@ -77,7 +77,12 @@ section > h2 {
     position: static;
 }
 
-p, #git, #link, #companion {
+form {
+    margin-top: 20px;
+    width: 90%;
+}
+
+p, form, #git, #link, #companion {
     background-color: #8DD9EC;
     border-style: solid;
     border-color: #34A9C6;
