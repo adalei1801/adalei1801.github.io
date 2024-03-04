@@ -57,8 +57,25 @@ h1, h2, h3 {
     color:#fdfaf5;
     background-color: #0a66c2;
     border-color: #fdfaf5 ;
+}
 
+#randominfo, #dragoninfo, #compinfo {
+    height: 208px;
+    text-align: center;
+}
 
+#tipinfo, #calcinfo {
+    height: 108px;
+}
+
+.info {
+    padding: 1px;
+    height: 200px;
+    margin: 50px;
+}
+
+img {
+    margin-right: 10px;
 }
 
 section > img {
