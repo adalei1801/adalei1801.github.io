@@ -163,3 +163,32 @@ li {
     color: #000000;
     border-radius: 8px;
 }
+
+@media screen and (max-width: 600px) {
+    p {
+        text-align: left;
+    }
+
+    h1, h2, h3 {
+        width: 85%;
+    }
+
+    input[type=submit] {
+        width: 60px;
+        height: 50px;
+    }
+
+    input[type=text] {
+        height: 25px;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+    }
+
+    #git, #link {
+        padding: 15px;
+    }
+
+}
