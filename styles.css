@@ -31,11 +31,6 @@ h1, h2, h3 {
     width: 80%;
 }
 
-#companion:hover {
-    background-color: #ffffff;
-    border-color: #000000;
-}
-
 #companion > a {
     color: black;
     display: block;
@@ -63,14 +58,9 @@ h1, h2, h3 {
     text-align: center;
 }
 
-#tipinfo, #calcinfo {
-    height: 108px;
-}
 
 .info {
     padding: 1px;
-    height: 200px;
-    margin: 50px;
 }
 
 img {
@@ -81,16 +71,16 @@ section > img {
     float: left
 }
 
-section > p {
-    position: static;
-    width: 80%;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    right: 60px;
-}
+
 
 section > h2 {
     position: static;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
 }
 
 form {
@@ -98,12 +88,16 @@ form {
     width: 90%;
 }
 
-p, form, #git, #link, #companion {
+p, form, #git, #link, #companion, section {
     background-color: #8DD9EC;
     border-style: solid;
     border-color: #34A9C6;
     padding: 5px;
     border-radius: 5px;
+}
+
+section  p {
+    border: none;    
 }
 
 img {
@@ -137,7 +131,7 @@ nav a:hover {
     border-radius: 8px;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -145,12 +139,11 @@ ul {
     background-color: #e3eced;
     overflow: hidden;
     top: 0;
-    width: 100%;
     border-radius: 8px;
     border: 3px solid #90b9e4;
 }
 
-li {
+nav li {
     display: inline;
     float: left;
     padding-left: 5px;
@@ -167,6 +160,8 @@ li {
 @media screen and (max-width: 600px) {
     p {
         text-align: left;
+        line-height: 25px;
+        padding: 4px;
     }
 
     h1, h2, h3 {
@@ -191,4 +186,80 @@ li {
         padding: 15px;
     }
 
+    #dragon {
+        padding: 2px;
+    }
+
+    nav ul {
+        padding: 5px;
+    }
+
+    nav li {
+        margin: 12px;
+    }
+
+}
+
+@media screen and (min-width: 601px) {
+    p {
+        line-height: 35px;
+        font-size: 30px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #randomcover, #dragoncover {
+        width: 200px;
+        height: 300px;
+    }
+
+    #compshot {
+        width: 250px;
+        height: 200px;
+    }
+
+    #git, #link {
+        padding: 20px;
+    }
+
+    #git a, #link a {
+        font-size: 40px;
+        line-height: 20px;
+    }
+
+    h1, h2, h3 {
+        font-size: 40px;
+    }
+
+    nav a {
+        font-size: 35px;
+    }
+
+    form {
+        margin-top: 50px;
+    }
+
+    label {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    textarea {
+        height: 80px;
+        width: 900px;
+    }
+
+    input[type=submit] {
+        width: 70px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    input[type=text] {
+        width: 800px;
+        height: 30px;
+    }
 }
