@@ -256,10 +256,11 @@ nav li {
         width: 70px;
         height: 50px;
         font-size: 20px;
+        color: blue;
     }
 
     input[type=text] {
         width: 800px;
-        height: 30px;
+        height: 10px;
     }
 }
