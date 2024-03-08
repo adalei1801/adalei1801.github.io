@@ -58,6 +58,14 @@ h1, h2, h3 {
     text-align: center;
 }
 
+#contactform {
+    border-style: none;
+    padding: 1px;
+    margin: 1px;
+    border-width: 1px;
+    font-weight: 600;
+}
+
 
 .info {
     padding: 1px;
@@ -70,8 +78,6 @@ img {
 section > img {
     float: left
 }
-
-
 
 section > h2 {
     position: static;
@@ -151,6 +157,21 @@ nav li {
     padding-bottom: 5px;
 }
 
+span {
+    display: block;
+}
+
+input[type=text] {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=submit] {
+    background-color: #58a1fb;
+    border-radius: 8px;
+    border-color: #58a1fb;
+    font-family: 'Roboto';
+}
+
 .active {
     background-color: #58a1fb;
     color: #000000;
@@ -162,6 +183,7 @@ nav li {
         text-align: left;
         line-height: 25px;
         padding: 4px;
+        display: block;
     }
 
     h1, h2, h3 {
@@ -174,7 +196,12 @@ nav li {
     }
 
     input[type=text] {
-        height: 25px;
+        height: 20%;
+        width: 90%;
+    }
+
+    textarea {
+        width: 90%;
     }
 
     nav {
@@ -188,6 +215,21 @@ nav li {
 
     #dragon {
         padding: 2px;
+    }
+
+    #link {
+        margin-top: 20px;
+        display: block;
+        width: 84px;
+    }
+
+    #randominfo, #dragoninfo, #compinfo {
+        margin-top: 10px;
+        padding-top: 210px;
+    }
+
+    #tipinfo, #calcinfo {
+        margin-top: 120px;
     }
 
     nav ul {
@@ -223,11 +265,7 @@ nav li {
 
     #git, #link {
         padding: 20px;
-    }
-
-    #git a, #link a {
-        font-size: 40px;
-        line-height: 20px;
+        font-size: 30px;
     }
 
     h1, h2, h3 {
@@ -249,18 +287,22 @@ nav li {
 
     textarea {
         height: 80px;
-        width: 900px;
+        width: 90%;
     }
 
     input[type=submit] {
-        width: 70px;
-        height: 50px;
+        width: 100px;
+        height: 60px;
         font-size: 20px;
-        color: blue;
     }
 
     input[type=text] {
-        width: 800px;
-        height: 10px;
+        width: 90%;
+        height: 40px;
+    }
+
+    input[type=radio] {
+        width: 90px;
+        height: 2em;
     }
 }
