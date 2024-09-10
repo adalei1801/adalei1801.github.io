@@ -23,22 +23,8 @@ h1, h2, h3 {
     width: 50%
 }
 
-#random {
-    width: 70%;
-}
-
-#companion {
-    width: 80%;
-}
-
-#companion > a {
-    color: black;
-    display: block;
-}
-
-#dragon {
+#heading {
     width: 100%;
-    position: static;
 }
 
 #git:hover {
@@ -54,8 +40,80 @@ h1, h2, h3 {
 }
 
 #randominfo, #dragoninfo, #compinfo {
-    height: 208px;
+    height: 50px;
     text-align: center;
+}
+
+#compinfo {
+    height: 20px;
+}
+
+#altinfo {
+    height: 30px;
+}
+
+#compshot {
+    height: 200px;
+    width: 300px;
+    border: 2px #34A9C6 solid;
+    padding: 0px;
+}
+
+#tipimg, #randomcover, #dragoncover, #altcover, #calcimg {
+    padding: 0px;
+    border-radius: 0px;
+}
+
+#alttext:hover {
+    background-color: #45f245;
+    border-color: #F245F2;
+}
+
+#alttextlink:hover {
+    color: #4545F2; 
+}
+
+#alttextlink {
+    color:black;
+}
+
+#companion:hover {
+    background-color: #4a4a4a;
+    border-color: white;
+}
+
+#complink {
+    color: black;
+}
+
+#complink:hover {
+    color: white;
+}
+
+#stream:hover {
+    background-color: #6bbece;
+    border-color: #e3f6f8;
+}
+
+#streamlink {
+    color: black;
+}
+
+#streamlink:hover {
+    color: white;
+}
+
+#book:hover {
+    background-color: #3bb1e7;
+    border-color: #f2960b;
+}
+
+#booklink {
+    color: black;
+}
+
+#booklink:hover {
+    color: white;
 }
 
 #contactform {
@@ -69,6 +127,8 @@ h1, h2, h3 {
 
 .info {
     padding: 1px;
+    width: 100%;
+    text-align: center;
 }
 
 img {
@@ -225,11 +285,11 @@ input[type=submit] {
 
     #randominfo, #dragoninfo, #compinfo {
         margin-top: 10px;
-        padding-top: 210px;
+        padding-top: 10px;
     }
 
     #tipinfo, #calcinfo {
-        margin-top: 120px;
+        margin-top: 10px;
     }
 
     nav ul {
@@ -253,19 +313,28 @@ input[type=submit] {
         height: 200px;
     }
 
-    #randomcover, #dragoncover {
+    #profile {
+        height: 500px;
+        width: 500px;
+    }
+
+    #randomcover, #dragoncover,#altcover, #bookcover {
         width: 200px;
         height: 300px;
     }
 
     #compshot {
-        width: 250px;
-        height: 200px;
+        width: 350px;
+        height: 300px;
     }
 
     #git, #link {
         padding: 20px;
         font-size: 30px;
+    }
+
+    .heading {
+        width: 100%;
     }
 
     h1, h2, h3 {
