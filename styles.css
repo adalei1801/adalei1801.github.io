@@ -116,6 +116,19 @@ h1, h2, h3 {
     color: white;
 }
 
+#simplecalc:hover {
+    background-color: #042a3b;
+    border-color: #86d1df;
+}
+
+#sclink {
+    color: black;
+}
+
+#sclink:hover {
+    color: white;
+}
+
 #contactform {
     border-style: none;
     padding: 1px;
